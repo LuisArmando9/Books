@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minHeight="48dp"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="6dp"
+        android:background="@drawable/circle_book_icon"
+        android:src="@drawable/baseline_book_white_36"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/title"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:textColor="@color/primary_title"
+            android:textSize="11dp"
+            android:text="Android"
+            android:gravity="bottom|center"/>
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Guía de desarrollo de aplicaciones Java para smartphones y tabletas"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/secondary_title"
+            android:gravity="top"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Android"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/primary_title"
+            android:gravity="bottom"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/subtitle"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:textColor="@color/secondary_title"
+            android:textSize="11dp"
+
+            android:text="Guía de desarrollo de aplicaciones Java para smartphones y tabletas"/>
+
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/publishedDate"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:textColor="@color/primary_title"
+            android:textSize="11dp"
+            android:text="2016"
+            android:gravity="bottom|center"/>
+        <TextView
+             android:id="@+id/publisher"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Ministerio de Educación"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/secondary_title"
+            android:gravity="top"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
